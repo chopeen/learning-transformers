@@ -19,6 +19,7 @@ def main():
 
 
 def get_text(url):
+    # TODO: find a way to make `requests` work with the TLS proxy
     # `verify=False` is a workaround for error:
     #   Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:
     #   self signed certificate in certificate chain (_ssl.c:1076)
