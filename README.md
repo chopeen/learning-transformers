@@ -44,3 +44,21 @@ https://en.m.wikipedia.org/wiki/Poznan?action=render
     Is there a zoo in Poznań?                                 Poznań
     What is the abbreviation for Adam Mickiewicz University?  "Posnania"
     --------------------------------------------------------  ---------------------------------------------------
+
+https://en.m.wikipedia.org/wiki/Kinshasa?action=render (trying to reproduce the
+[result from Twitter](https://twitter.com/jmcimula/status/1213623492807135234/photo/1))
+
+    ----------------------------------------------------------------------  -----------------------------------------------------------------
+    What is the population of Kinshasa?                                     KinshasaVille de KinshasaCapitalKinshasa
+    How many provinces does the DRC have?                                   FlagSealNickname(s): Kin la belle(English: Kin the beautiful)DRC,
+    Where is Kinshasa situated in the DRC?                                  city-province of KinshasaKinshasaDRC,
+    Where is Kinshasa located in the DRC?                                   city-province of KinshasaKinshasaDRC,
+    When did the 14th Francophone Summit take place?                        KinshasaVille de KinshasaCapitalKinshasa
+    What is the closest city to Kinshasa?                                   Leopoldville.
+    What city is close to Kinshasa?                                         Leopoldville.
+    What city is located near Kinshasa?                                     Leopoldville.
+    What is the Francophone urban area that surpasses Paris in population?  "Léopoldville"
+    What Francophone urban area is larger than Paris?                       Leopoldville.
+    What are the largest urban areas in Africa?                             Democratic Republic of the CongoKinshasaKinshasa
+    Is Kinshasa located in Africa?                                          Democratic Republic of the CongoKinshasaKinshasa (Africa)Show
+    ----------------------------------------------------------------------  -----------------------------------------------------------------

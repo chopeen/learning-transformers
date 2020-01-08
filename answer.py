@@ -5,22 +5,24 @@ from transformers import pipeline
 
 
 def main():
-    url = r'https://en.m.wikipedia.org/wiki/Poznan?action=render'
+    url = r'https://en.m.wikipedia.org/wiki/Kinshasa?action=render'
 
     nlp = pipeline('question-answering')
     text = get_text(url)
 
     questions = [
-        'What is the population of Poznań?',
-        'Where is Poznań located?',
-        'What is the main river of Poznań?',
-        'What is the climate is Poznań?',
-        'How many neighbourhoods are there in Poznań?',
-        'How many districts?',
-        'When did the first free local elections take place?',
-        'What is the largest lake in Poznań?',
-        'Is there a zoo in Poznań?',
-        'What is the abbreviation for Adam Mickiewicz University?'
+        'What is the population of Kinshasa?',
+        'How many provinces does the DRC have?',
+        'Where is Kinshasa situated in the DRC?',
+        'Where is Kinshasa located in the DRC?',
+        'When did the 14th Francophone Summit take place?',
+        'What is the closest city to Kinshasa?',
+        'What city is close to Kinshasa?',
+        'What city is located near Kinshasa?',
+        'What is the Francophone urban area that surpasses Paris in population?',
+        'What Francophone urban area is larger than Paris?',
+        'What are the largest urban areas in Africa?',
+        'Is Kinshasa located in Africa?'
     ]
 
     answers = []
