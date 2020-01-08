@@ -1,18 +1,31 @@
-"""
-1. Running `pipeline(...)` for the first time may take time, because it downloads
-   the pretrained models from S3.
-2. They are cached in .cache/torch/transformers (even if TensorFlow is used).
-3. I found no way to download them manually:
-   - https://github.com/huggingface/transformers/issues/2323
-   - https://github.com/huggingface/transformers/issues/2157
-"""
+import requests
 
 from transformers import pipeline
 
 
-nlp = pipeline('question-answering')
+def main():
+    url = r'https://en.m.wikipedia.org/wiki/Bevacizumab'
+    text = get_text(url)
+    print(text)
 
-text = 'He lived in London and his name was Jack.'
+    exit(1)
 
-answer = nlp(context=text, question='What was his name?')
-print(answer)
+    nlp = pipeline('question-answering')
+
+    text = 'He lived in London and his name was Jack.'
+
+    answer = nlp(context=text, question='What was his name?')
+    print(answer)
+
+
+def get_text(url):
+    # `verify=False` is a workaround for error:
+    #   Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:
+    #   self signed certificate in certificate chain (_ssl.c:1076)
+    file = requests.get(url, verify=False)
+    text = file.text
+    return text
+
+
+if __name__ == '__main__':
+    main()
