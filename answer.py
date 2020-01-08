@@ -5,22 +5,22 @@ from transformers import pipeline
 
 
 def main():
-    url = r'https://en.m.wikipedia.org/wiki/Bevacizumab?action=render'
+    url = r'https://en.m.wikipedia.org/wiki/Poznan?action=render'
 
     nlp = pipeline('question-answering')
     text = get_text(url)
 
     questions = [
-        'When was Bevacizumab approved in the United States?',
-        'What is the trade name of Bevacizumab?',
-        'What trade name is Bevacizumab sold under?',
-        'How much does a dose cost?',
-        'How does Bevacizumab work?',
-        'What are the common side effects of Bevacizumab?',
-        'How is Bevacizumab given?',
-        'How was Bevacizumab derived?',
-        'Is Bevacizumab an antibody?',
-        'What is a specialty drug?'
+        'What is the population of Poznań?',
+        'Where is Poznań located?',
+        'What is the main river of Poznań?',
+        'What is the climate is Poznań?',
+        'How many neighbourhoods are there in Poznań?',
+        'How many districts?',
+        'When did the first free local elections take place?',
+        'What is the largest lake in Poznań?',
+        'Is there a zoo in Poznań?',
+        'What is the abbreviation for Adam Mickiewicz University?'
     ]
 
     answers = []

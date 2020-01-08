@@ -29,3 +29,18 @@ https://en.m.wikipedia.org/wiki/Bevacizumab?action=render
     Is Bevacizumab an antibody?                          US DailyMed: Bevacizumab US FDA: Bevacizumab
     What is a specialty drug?                            Avastin,
     ---------------------------------------------------  ---------------------------------------------------------------
+
+https://en.m.wikipedia.org/wiki/Poznan?action=render
+
+    --------------------------------------------------------  ---------------------------------------------------
+    What is the population of Poznań?                         2018) • City536,438
+    Where is Poznań located?                                  Poznań
+    What is the main river of Poznań?                         Poznań
+    What is the climate is Poznań?                            (CET) • Summer
+    How many neighbourhoods are there in Poznań?              Poznań
+    How many districts?                                       Poland.
+    When did the first free local elections take place?       (200 ft)Population (31 December 2018) • City536,438
+    What is the largest lake in Poznań?                       Poznań
+    Is there a zoo in Poznań?                                 Poznań
+    What is the abbreviation for Adam Mickiewicz University?  "Posnania"
+    --------------------------------------------------------  ---------------------------------------------------
