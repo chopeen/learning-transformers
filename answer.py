@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from tabulate import tabulate
 from transformers import pipeline
 
 
@@ -22,13 +23,19 @@ def main():
         'What is a specialty drug?'
     ]
 
+    answers = []
     for question in questions:
         answer = get_answer(nlp, text, question)
-        print(f'{question} - {answer}')
+        answers.append((question, answer))
+
+    print(tabulate(answers))
 
 
 def get_answer(nlp, text, question):
-    return nlp(context=text, question=question)
+    answer_object = nlp(context=text, question=question)
+    # example object: {'score': 0.9962748423312462, 'start': 1001, 'end': 1009, 'answer': 'Avastin,'}
+    answer_text = answer_object['answer']
+    return answer_text
 
 
 def get_text(url):
