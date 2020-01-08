@@ -1,5 +1,5 @@
 import requests
-
+from bs4 import BeautifulSoup
 from transformers import pipeline
 
 
@@ -24,8 +24,11 @@ def get_text(url):
     #   Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:
     #   self signed certificate in certificate chain (_ssl.c:1076)
     file = requests.get(url, verify=False)
-    text = file.text
-    return text
+
+    raw_html = file.text
+    clean_text = BeautifulSoup(raw_html, 'lxml').text
+
+    return clean_text
 
 
 if __name__ == '__main__':
