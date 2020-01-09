@@ -8,7 +8,25 @@ def main():
     url = r'https://en.m.wikipedia.org/wiki/Kinshasa?action=render'
 
     nlp = pipeline('question-answering')
-    text = get_text(url)
+    #text = get_text(url)
+    text = '''
+    Kinshasa, formerly Léopoldville (Dutch: Leopoldstad), is the capital and the largest city of the 
+    Democratic Republic of the Congo. The city is situated alongside the Congo River.
+    
+    Once a site of fishing and trading villages, Kinshasa is now a megacity with an estimated 
+    population of more than 11 million. It faces Brazzaville, the capital of the neighbouring 
+    Republic of the Congo, which can be seen in the distance across the wide Congo River, making 
+    them the world's second-closest pair of capital cities after Rome and Vatican City. The city 
+    of Kinshasa is also one of the DRC's 26 provinces. Because the administrative boundaries of 
+    the city-province cover a vast area, over 90 percent of the city-province's land is rural in 
+    nature, and the urban area occupies a small but expanding section on the western side.
+    
+    Kinshasa is Africa's third-largest urban area after Cairo and Lagos. It is also the world's 
+    largest Francophone urban area (surpassing Paris in population), with French being the 
+    language of government, schools, newspapers, public services, and high-end commerce in the 
+    city, while Lingala is used as a lingua franca in the street. Kinshasa hosted the 14th 
+    Francophonie Summit in October 2012.
+    '''
 
     questions = [
         'What is the population of Kinshasa?',
