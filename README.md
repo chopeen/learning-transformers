@@ -72,17 +72,17 @@ https://en.m.wikipedia.org/wiki/Kinshasa?action=render
 
 #### Kinshasa (text snippet)
 
-----------------------------------------------------------------------  ---------------------------------------------
-What is the population of Kinshasa?                                     11 million.
-How many provinces does the DRC have?                                   26
-Where is Kinshasa situated in the DRC?                                  alongside the Congo River.
-Where is Kinshasa located in the DRC?                                   alongside the Congo River.
-When did the 14th Francophone Summit take place?                        October 2012.
-What is the closest city to Kinshasa?                                   Brazzaville,
-What city is close to Kinshasa?                                         Rome and Vatican City.
-What city is located near Kinshasa?                                     Léopoldville
-What is the Francophone urban area that surpasses Paris in population?  Kinshasa
-What Francophone urban area is larger than Paris?                       Kinshasa
-What are the largest urban areas in Africa?                             Cairo and Lagos.
-Is Kinshasa located in Africa?                                          Kinshasa is Africa's third-largest urban area
-----------------------------------------------------------------------  ---------------------------------------------
+    ----------------------------------------------------------------------  ---------------------------------------------
+    What is the population of Kinshasa?                                     11 million.
+    How many provinces does the DRC have?                                   26
+    Where is Kinshasa situated in the DRC?                                  alongside the Congo River.
+    Where is Kinshasa located in the DRC?                                   alongside the Congo River.
+    When did the 14th Francophone Summit take place?                        October 2012.
+    What is the closest city to Kinshasa?                                   Brazzaville,
+    What city is close to Kinshasa?                                         Rome and Vatican City.
+    What city is located near Kinshasa?                                     Léopoldville
+    What is the Francophone urban area that surpasses Paris in population?  Kinshasa
+    What Francophone urban area is larger than Paris?                       Kinshasa
+    What are the largest urban areas in Africa?                             Cairo and Lagos.
+    Is Kinshasa located in Africa?                                          Kinshasa is Africa's third-largest urban area
+    ----------------------------------------------------------------------  ---------------------------------------------
