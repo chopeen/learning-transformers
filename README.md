@@ -17,39 +17,18 @@ Experiments inspired by [this tweet](https://twitter.com/jmcimula/status/1213623
 
 ### Results
 
-#### Bevacizumab (Wikipedia article)
-
-https://en.m.wikipedia.org/wiki/Bevacizumab?action=render
-
-    ---------------------------------------------------  ---------------------------------------------------------------
-    When was Bevacizumab approved in the United States?  this?)  (verify)Bevacizumab, sold under the trade name Avastin,
-    What is the trade name of Bevacizumab?               Avastin,
-    What trade name is Bevacizumab sold under?           Avastin,
-    How much does a dose cost?                           11–50 days)IdentifiersCAS
-    How does Bevacizumab work?                           a medication
-    What are the common side effects of Bevacizumab?     (Risk not ruled out)
-    How is Bevacizumab given?                            Pregnancycategory
-    How was Bevacizumab derived?                         Avastin,
-    Is Bevacizumab an antibody?                          US DailyMed: Bevacizumab US FDA: Bevacizumab
-    What is a specialty drug?                            Avastin,
-    ---------------------------------------------------  ---------------------------------------------------------------
-
-#### Poznan (Wikipedia article)
-
-https://en.m.wikipedia.org/wiki/Poznan?action=render
-
-    --------------------------------------------------------  ---------------------------------------------------
-    What is the population of Poznań?                         2018) • City536,438
-    Where is Poznań located?                                  Poznań
-    What is the main river of Poznań?                         Poznań
-    What is the climate is Poznań?                            (CET) • Summer
-    How many neighbourhoods are there in Poznań?              Poznań
-    How many districts?                                       Poland.
-    When did the first free local elections take place?       (200 ft)Population (31 December 2018) • City536,438
-    What is the largest lake in Poznań?                       Poznań
-    Is there a zoo in Poznań?                                 Poznań
-    What is the abbreviation for Adam Mickiewicz University?  "Posnania"
-    --------------------------------------------------------  ---------------------------------------------------
+#### Poznan (text snippet vs. article)
+                                                      | Snippet of text (5 paragraphs)                             | Full article from Wikipedia 
+    --------------------------------------------------|------------------------------------------------------------|----------------------------------------------------
+    Where is Poznań located in Poland?                | west-central Poland,                                       | Poznań
+    What is Poznań best know for?                     | renaissance Old Town and Ostrów Tumski Cathedral.          | (disambiguation).
+    What is the population of Poznań?                 | 538,633                                                    | 2018) • City536,438
+    How many people live in Poznań?                   | 1.1 million                                                | (200 ft)Population (31 December 2018) • City536,438
+    What is the Poznań International Fair?            | the biggest industrial fair in Poland                      | Poznań Town Hall,
+    What are the most renowned landmarks of Poznań?   | Poznań Town Hall,                                          | Poznań Town Hall,
+    When did Stary Browar win competition organised   | 2012,                                                      | (200 ft)Population (31 December 2018) • City536,438
+      by National Geographic Traveler?                |                                                            |
+    Who are Saint Peter and Paul of Tarsus?           | Poznań is a city on the Warta River in west-central Poland,|  Poland.
 
 #### Kinshasa (Wikipedia article)
 
@@ -87,15 +66,19 @@ https://en.m.wikipedia.org/wiki/Kinshasa?action=render
     Is Kinshasa located in Africa?                                          Kinshasa is Africa's third-largest urban area
     ----------------------------------------------------------------------  ---------------------------------------------
 
-#### Poznan (text snippet vs. article)
-                                                      | Snippet of text (5 paragraphs)                             | Full article from Wikipedia 
-    --------------------------------------------------|------------------------------------------------------------|----------------------------------------------------
-    Where is Poznań located in Poland?                | west-central Poland,                                       | Poznań
-    What is Poznań best know for?                     | renaissance Old Town and Ostrów Tumski Cathedral.          | (disambiguation).
-    What is the population of Poznań?                 | 538,633                                                    | 2018) • City536,438
-    How many people live in Poznań?                   | 1.1 million                                                | (200 ft)Population (31 December 2018) • City536,438
-    What is the Poznań International Fair?            | the biggest industrial fair in Poland                      | Poznań Town Hall,
-    What are the most renowned landmarks of Poznań?   | Poznań Town Hall,                                          | Poznań Town Hall,
-    When did Stary Browar win competition organised   | 2012,                                                      | (200 ft)Population (31 December 2018) • City536,438
-      by National Geographic Traveler?                |                                                            |
-    Who are Saint Peter and Paul of Tarsus?           | Poznań is a city on the Warta River in west-central Poland,|  Poland.
+#### Bevacizumab (Wikipedia article)
+
+https://en.m.wikipedia.org/wiki/Bevacizumab?action=render
+
+    ---------------------------------------------------  ---------------------------------------------------------------
+    When was Bevacizumab approved in the United States?  this?)  (verify)Bevacizumab, sold under the trade name Avastin,
+    What is the trade name of Bevacizumab?               Avastin,
+    What trade name is Bevacizumab sold under?           Avastin,
+    How much does a dose cost?                           11–50 days)IdentifiersCAS
+    How does Bevacizumab work?                           a medication
+    What are the common side effects of Bevacizumab?     (Risk not ruled out)
+    How is Bevacizumab given?                            Pregnancycategory
+    How was Bevacizumab derived?                         Avastin,
+    Is Bevacizumab an antibody?                          US DailyMed: Bevacizumab US FDA: Bevacizumab
+    What is a specialty drug?                            Avastin,
+    ---------------------------------------------------  ---------------------------------------------------------------
