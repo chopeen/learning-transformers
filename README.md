@@ -1,5 +1,7 @@
 # Learning 🤗 Transformers
 
+Experiments inspired by [this tweet](https://twitter.com/jmcimula/status/1213623492807135234/photo/1).
+
 ## QA pipeline
 
 ### Notes
@@ -14,6 +16,8 @@
    - https://github.com/huggingface/transformers/issues/2157
 
 ### Results
+
+#### Bevacizumab (Wikipedia article)
 
 https://en.m.wikipedia.org/wiki/Bevacizumab?action=render
 
@@ -30,6 +34,8 @@ https://en.m.wikipedia.org/wiki/Bevacizumab?action=render
     What is a specialty drug?                            Avastin,
     ---------------------------------------------------  ---------------------------------------------------------------
 
+#### Poznan (Wikipedia article)
+
 https://en.m.wikipedia.org/wiki/Poznan?action=render
 
     --------------------------------------------------------  ---------------------------------------------------
@@ -45,8 +51,9 @@ https://en.m.wikipedia.org/wiki/Poznan?action=render
     What is the abbreviation for Adam Mickiewicz University?  "Posnania"
     --------------------------------------------------------  ---------------------------------------------------
 
-https://en.m.wikipedia.org/wiki/Kinshasa?action=render (trying to reproduce the
-[result from Twitter](https://twitter.com/jmcimula/status/1213623492807135234/photo/1))
+#### Kinshasa (Wikipedia article)
+
+https://en.m.wikipedia.org/wiki/Kinshasa?action=render
 
     ----------------------------------------------------------------------  -----------------------------------------------------------------
     What is the population of Kinshasa?                                     KinshasaVille de KinshasaCapitalKinshasa
@@ -62,3 +69,5 @@ https://en.m.wikipedia.org/wiki/Kinshasa?action=render (trying to reproduce the
     What are the largest urban areas in Africa?                             Democratic Republic of the CongoKinshasaKinshasa
     Is Kinshasa located in Africa?                                          Democratic Republic of the CongoKinshasaKinshasa (Africa)Show
     ----------------------------------------------------------------------  -----------------------------------------------------------------
+
+#### Kinshasa (text snippet)
