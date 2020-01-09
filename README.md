@@ -86,3 +86,16 @@ https://en.m.wikipedia.org/wiki/Kinshasa?action=render
     What are the largest urban areas in Africa?                             Cairo and Lagos.
     Is Kinshasa located in Africa?                                          Kinshasa is Africa's third-largest urban area
     ----------------------------------------------------------------------  ---------------------------------------------
+
+#### Poznan (text snippet)
+
+    --------------------------------------------------------------------------------  -----------------------------------------------------------
+    Where is Poznań located in Poland?                                                west-central Poland,
+    What is Poznań best know for?                                                     renaissance Old Town and Ostrów Tumski Cathedral.
+    What is the population of Poznań?                                                 538,633
+    How many people live in Poznań?                                                   1.1 million
+    What is the Poznań International Fair?                                            the biggest industrial fair in Poland
+    What are the most renowned landmarks of Poznań?                                   Poznań Town Hall,
+    When did Stary Browar win competition organised by National Geographic Traveler?  2012,
+    Who are Saint Peter and Paul of Tarsus?                                           Poznań is a city on the Warta River in west-central Poland,
+    --------------------------------------------------------------------------------  -----------------------------------------------------------

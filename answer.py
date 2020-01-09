@@ -10,37 +10,45 @@ def main():
     nlp = pipeline('question-answering')
     #text = get_text(url)
     text = '''
-    Kinshasa, formerly Léopoldville (Dutch: Leopoldstad), is the capital and the largest city of the 
-    Democratic Republic of the Congo. The city is situated alongside the Congo River.
+    Poznań is a city on the Warta River in west-central Poland, in the Greater Poland region
+    and is the fifth-largest city in Poland. It is best known for its renaissance Old Town and
+    Ostrów Tumski Cathedral. Today, Poznań is an important cultural and business centre and
+    one of Poland's most populous regions with many regional customs such as Saint John's Fair,
+    traditional Saint Martin's croissants and a local dialect.
     
-    Once a site of fishing and trading villages, Kinshasa is now a megacity with an estimated 
-    population of more than 11 million. It faces Brazzaville, the capital of the neighbouring 
-    Republic of the Congo, which can be seen in the distance across the wide Congo River, making 
-    them the world's second-closest pair of capital cities after Rome and Vatican City. The city 
-    of Kinshasa is also one of the DRC's 26 provinces. Because the administrative boundaries of 
-    the city-province cover a vast area, over 90 percent of the city-province's land is rural in 
-    nature, and the urban area occupies a small but expanding section on the western side.
+    Poznań is among the oldest and largest cities in Poland. The city's population is 538,633
+    (2011 census), while the continuous conurbation with Poznań County and several other
+    communities is inhabited by almost 1.1 million people. The Larger Poznań Metropolitan
+    Area (PMA) is inhabited by 1.3–1.4 million people and extends to such satellite towns as
+    Nowy Tomyśl, Gniezno and Września, making it the fourth largest metropolitan
+    area in Poland. It is the historical capital of the Greater Poland region and is currently
+    the administrative capital of the province called Greater Poland Voivodeship.
     
-    Kinshasa is Africa's third-largest urban area after Cairo and Lagos. It is also the world's 
-    largest Francophone urban area (surpassing Paris in population), with French being the 
-    language of government, schools, newspapers, public services, and high-end commerce in the 
-    city, while Lingala is used as a lingua franca in the street. Kinshasa hosted the 14th 
-    Francophonie Summit in October 2012.
+    Poznań is a centre of trade, sports, education, technology and tourism. It is an important
+    academic site, with about 130,000 students and the Adam Mickiewicz University, the third
+    largest Polish university. Poznań is also the seat of the oldest Polish diocese, now being
+    one of the most populous archdioceses in the country. The city also hosts the Poznań
+    International Fair – the biggest industrial fair in Poland and one of the largest fairs in
+    Europe. The city's most renowned landmarks include Poznań Town Hall, the National Museum,
+    Grand Theatre, Fara Church, Poznań Cathedral and the Imperial Castle.
+    
+    In 2012, the Poznań's Art and Business Center "Stary Browar" won a competition organised by
+    National Geographic Traveler and was given the first prize as one of the seven "New Polish Wonders".
+    
+    The official patron saints of Poznań are Saint Peter and Paul of Tarsus, the patrons of
+    the cathedral. Martin of Tours – the patron of the main street Święty Marcin is also
+    regarded as one of the patron saints of the city.
     '''
 
     questions = [
-        'What is the population of Kinshasa?',
-        'How many provinces does the DRC have?',
-        'Where is Kinshasa situated in the DRC?',
-        'Where is Kinshasa located in the DRC?',
-        'When did the 14th Francophone Summit take place?',
-        'What is the closest city to Kinshasa?',
-        'What city is close to Kinshasa?',
-        'What city is located near Kinshasa?',
-        'What is the Francophone urban area that surpasses Paris in population?',
-        'What Francophone urban area is larger than Paris?',
-        'What are the largest urban areas in Africa?',
-        'Is Kinshasa located in Africa?'
+        'Where is Poznań located in Poland?',
+        'What is Poznań best know for?',
+        'What is the population of Poznań?',
+        'How many people live in Poznań?',
+        'What is the Poznań International Fair?',
+        'What are the most renowned landmarks of Poznań?',
+        'When did Stary Browar win competition organised by National Geographic Traveler?',
+        'Who are Saint Peter and Paul of Tarsus?'
     ]
 
     answers = []
