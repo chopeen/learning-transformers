@@ -7,13 +7,14 @@ Experiments inspired by [this tweet](https://twitter.com/jmcimula/status/1213623
 ### Notes
 
 1. Running `pipeline(...)` for the first time may take time, because
-   it downloads the pretrained models from S3.
+   it automatically downloads from S3 the required pretrained models.
 2. They are cached in `.cache/torch/transformers` (even if TensorFlow is
    used).
-3. I found no way to download them manually (like it is possible for NLTK
-   or spaCy):
-   - https://github.com/huggingface/transformers/issues/2323
-   - https://github.com/huggingface/transformers/issues/2157
+3. I found no way to download them explicitly like it is possible for NLTK
+   or spaCy (discussed [here](https://github.com/huggingface/transformers/issues/2323)
+   and [here](https://github.com/huggingface/transformers/issues/2157)), but you can
+   view the contents of the [models.huggingface.co](https://s3.amazonaws.com/models.huggingface.co/)
+   bucket.
 
 ### Results
 
