@@ -27,15 +27,15 @@ Experiments inspired by [this tweet](https://twitter.com/jmcimula/status/1213623
 #### Poznan (text snippet vs. article)
                                                       | Snippet of text (5 paragraphs)                             | Full article from Wikipedia 
     --------------------------------------------------|------------------------------------------------------------|----------------------------------------------------
-    Where is Poznań located in Poland?                | west-central Poland,                                       | Poznań
-    What is Poznań best know for?                     | renaissance Old Town and Ostrów Tumski Cathedral.          | (disambiguation).
-    What is the population of Poznań?                 | 538,633                                                    | 2018) • City536,438
-    How many people live in Poznań?                   | 1.1 million                                                | (200 ft)Population (31 December 2018) • City536,438
-    What is the Poznań International Fair?            | the biggest industrial fair in Poland                      | Poznań Town Hall,
-    What are the most renowned landmarks of Poznań?   | Poznań Town Hall,                                          | Poznań Town Hall,
-    When did Stary Browar win competition organised   | 2012,                                                      | (200 ft)Population (31 December 2018) • City536,438
+    Where is Poznań located in Poland?                | west-central Poland,                                       | west-central Poland,
+    What is Poznań best know for?                     | renaissance Old Town and Ostrów Tumski Cathedral.          | renaissance Old Town and Ostrów Tumski Cathedral.
+    What is the population of Poznań?                 | 538,633                                                    | 538,633
+    How many people live in Poznań?                   | 1.1 million                                                | 1.1 million
+    What is the Poznań International Fair?            | the biggest industrial fair in Poland                      | the biggest industrial fair in Poland
+    What are the most renowned landmarks of Poznań?   | Poznań Town Hall,                                          | renaissance Old Town and Ostrów Tumski Cathedral.
+    When did Stary Browar win competition organised   | 2012,                                                      | (2011
       by National Geographic Traveler?                |                                                            |
-    Who are Saint Peter and Paul of Tarsus?           | Poznań is a city on the Warta River in west-central Poland,|  Poland.
+    Who are Saint Peter and Paul of Tarsus?           | Poznań is a city on the Warta River in west-central Poland,| Poznań
 
 #### Poznan (simple questions)
 
