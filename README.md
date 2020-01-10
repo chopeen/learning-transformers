@@ -19,6 +19,8 @@ Experiments inspired by [this tweet](https://twitter.com/jmcimula/status/1213623
    managed to download all the files - either the connection timed out and
    the downloaded files were corrupted
    (`Unable to open file (truncated file: eof = 244962661, sblock->base_addr = 0, stored_eof = 265582824)`).
+   - UPDATE: It must have been an issue with my home network or my ISP.
+     Switching to mobile hotspot solved the problem immediately.
 
 ### Results
 
