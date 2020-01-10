@@ -1,4 +1,4 @@
-name: transformers-qa
+name: tformers
 channels:
   - defaults
   - conda-forge
