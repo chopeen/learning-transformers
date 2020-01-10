@@ -12,11 +12,6 @@ dependencies:
     - scikit-learn
     - tensorflow
     - transformers
-
-    # requirements for `transformers` - https://github.com/huggingface/transformers/blob/master/examples/requirements.txt
-    # - seqeval
-    # - tensorboard
-    # - tensorboardX
     
     # Torch instead of TF
     # - torch
