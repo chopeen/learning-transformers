@@ -20,7 +20,7 @@ Experiments inspired by [this tweet](https://twitter.com/jmcimula/status/1213623
    the downloaded files were corrupted
    (`Unable to open file (truncated file: eof = 244962661, sblock->base_addr = 0, stored_eof = 265582824)`).
    - UPDATE: It must have been an issue with my home network or my ISP.
-     Switching to mobile hotspot solved the problem immediately.
+             Switching to mobile hotspot solved the problem immediately.
 
 ### Results
 
@@ -48,38 +48,21 @@ It cannot handle _polar questions_ (yes-no), because the answers are always pass
     What is Stary Browar?                        the Poznań's Art and Business Center
     -------------------------------------------  -------------------------------------------------
 
-#### Kinshasa (Wikipedia article)
+#### Kinshasa (text snippet vs. article)
 
-https://en.m.wikipedia.org/wiki/Kinshasa?action=render
+                                                                           | Snippet of text (5 paragraphs) | Full article from Wikipedia 
+    -----------------------------------------------------------------------|--------------------------------|-------------------------------
+    What is the population of Kinshasa?                                    | 11 million.                    | 11 million. 
+    How many provinces does the DRC have?                                  | 26                             | 26
+    Where is Kinshasa situated in the DRC?                                 | alongside the Congo River.     | one of the DRC's 26 provinces.
+    Where is Kinshasa located in the DRC?                                  | alongside the Congo River.     | one of the DRC's 26 provinces.
+    When did the 14th Francophone Summit take place?                       | October 2012.                  | October 2012.Residents
+    What is the closest city to Kinshasa?                                  | Brazzaville,                   | Brazzaville,
+    What city is close to Kinshasa?                                        | Rome and Vatican City.         | Brazzaville,
+    What city is located near Kinshasa?                                    | Léopoldville                   | Léopoldville      
+    What is the Francophone urban area that surpasses Paris in population? | Kinshasa                       | Léopoldville      
+    What Francophone urban area is larger than Paris?                      | Kinshasa                       | side.Kinshasa
+    What are the largest urban areas in Africa?                            | Cairo and Lagos.               | Cairo and Lagos.      
 
-    ----------------------------------------------------------------------  -----------------------------------------------------------------
-    What is the population of Kinshasa?                                     KinshasaVille de KinshasaCapitalKinshasa
-    How many provinces does the DRC have?                                   FlagSealNickname(s): Kin la belle(English: Kin the beautiful)DRC,
-    Where is Kinshasa situated in the DRC?                                  city-province of KinshasaKinshasaDRC,
-    Where is Kinshasa located in the DRC?                                   city-province of KinshasaKinshasaDRC,
-    When did the 14th Francophone Summit take place?                        KinshasaVille de KinshasaCapitalKinshasa
-    What is the closest city to Kinshasa?                                   Leopoldville.
-    What city is close to Kinshasa?                                         Leopoldville.
-    What city is located near Kinshasa?                                     Leopoldville.
-    What is the Francophone urban area that surpasses Paris in population?  "Léopoldville"
-    What Francophone urban area is larger than Paris?                       Leopoldville.
-    What are the largest urban areas in Africa?                             Democratic Republic of the CongoKinshasaKinshasa
-    Is Kinshasa located in Africa?                                          Democratic Republic of the CongoKinshasaKinshasa (Africa)Show
-    ----------------------------------------------------------------------  -----------------------------------------------------------------
-
-#### Kinshasa (text snippet)
-
-    ----------------------------------------------------------------------  ---------------------------------------------
-    What is the population of Kinshasa?                                     11 million.
-    How many provinces does the DRC have?                                   26
-    Where is Kinshasa situated in the DRC?                                  alongside the Congo River.
-    Where is Kinshasa located in the DRC?                                   alongside the Congo River.
-    When did the 14th Francophone Summit take place?                        October 2012.
-    What is the closest city to Kinshasa?                                   Brazzaville,
-    What city is close to Kinshasa?                                         Rome and Vatican City.
-    What city is located near Kinshasa?                                     Léopoldville
-    What is the Francophone urban area that surpasses Paris in population?  Kinshasa
-    What Francophone urban area is larger than Paris?                       Kinshasa
-    What are the largest urban areas in Africa?                             Cairo and Lagos.
-    Is Kinshasa located in Africa?                                          Kinshasa is Africa's third-largest urban area
-    ----------------------------------------------------------------------  ---------------------------------------------
+NOTE: Answers with merged words (`October 2012.Residents` or `side.Kinshasa`) suggest
+      that better text pre-processing could improve the results even more.
