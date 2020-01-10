@@ -5,11 +5,7 @@ from transformers import pipeline
 
 
 def main():
-    article_title = 'Poznan'
-
-    nlp = pipeline('question-answering')
-    text = get_wikipedia_content(article_title)
-    questions = [
+    questions_poznan = [
         'Where is Poznań located in Poland?',
         'What is Poznań best know for?',
         'What is the population of Poznań?',
@@ -19,6 +15,27 @@ def main():
         'When did Stary Browar win competition organised by National Geographic Traveler?',
         'Who are Saint Peter and Paul of Tarsus?'
     ]
+    questions_kinshasa = [
+        'What is the population of Kinshasa?',
+        'How many provinces does the DRC have?',
+        'Where is Kinshasa situated in the DRC?',
+        'Where is Kinshasa located in the DRC?',
+        'When did the 14th Francophone Summit take place?',
+        'What is the closest city to Kinshasa?',
+        'What city is close to Kinshasa?',
+        'What city is located near Kinshasa?',
+        'What is the Francophone urban area that surpasses Paris in population?',
+        'What Francophone urban area is larger than Paris?',
+        'What are the largest urban areas in Africa?'
+    ]
+
+    # print_answers('Poznan', questions_poznan)
+    print_answers('Kinshasa', questions_kinshasa)
+
+
+def print_answers(wiki_article_title, questions):
+    nlp = pipeline('question-answering')
+    text = get_wikipedia_content(wiki_article_title)
 
     answers = []
     for question in questions:
