@@ -30,6 +30,17 @@ Experiments inspired by [this tweet](https://twitter.com/jmcimula/status/1213623
       by National Geographic Traveler?                |                                                            |
     Who are Saint Peter and Paul of Tarsus?           | Poznań is a city on the Warta River in west-central Poland,|  Poland.
 
+#### Poznan (simple questions)
+
+It cannot handle _polar questions_ (yes-no), because the answers are always passages extracted from the text (no NLG).
+
+    -------------------------------------------  -------------------------------------------------
+    Is Poznań a city?                            a city on the Warta River in west-central Poland,
+    Is Poznań the fifth-largest city in Poland?  fifth-largest city in Poland.
+    What is the fifth-largest city in Poland?    Poznań
+    What is Stary Browar?                        the Poznań's Art and Business Center
+    -------------------------------------------  -------------------------------------------------
+
 #### Kinshasa (Wikipedia article)
 
 https://en.m.wikipedia.org/wiki/Kinshasa?action=render
