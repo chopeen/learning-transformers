@@ -15,6 +15,10 @@ Experiments inspired by [this tweet](https://twitter.com/jmcimula/status/1213623
    and [here](https://github.com/huggingface/transformers/issues/2157)), but you can
    view the contents of the [models.huggingface.co](https://s3.amazonaws.com/models.huggingface.co/)
    bucket.
+4. Sometimes I had to start the pipeline multiple times before it finally
+   managed to download all the files - either the connection timed out and
+   the downloaded files were corrupted
+   (`Unable to open file (truncated file: eof = 244962661, sblock->base_addr = 0, stored_eof = 265582824)`).
 
 ### Results
 
