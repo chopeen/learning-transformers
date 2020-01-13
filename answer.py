@@ -28,9 +28,22 @@ def main():
         'What Francophone urban area is larger than Paris?',
         'What are the largest urban areas in Africa?'
     ]
+    questions_bevacizumab = [
+        'When was Bevacizumab approved in the United States?',
+        'What is the trade name of Bevacizumab?',
+        'What trade name is Bevacizumab sold under?',
+        'How much does a dose cost?',
+        'How does Bevacizumab work?',
+        'What are the common side effects of Bevacizumab?',
+        'How is Bevacizumab given?',
+        'How was Bevacizumab derived?',
+        'Is Bevacizumab an antibody?',
+        'What is a specialty drug?'
+    ]
 
-    # print_answers('Poznan', questions_poznan)
-    print_answers('Kinshasa', questions_kinshasa)
+    print_answers('Poznan', questions_poznan)
+    # print_answers('Kinshasa', questions_kinshasa)
+    # print_answers('Bevacizumab', questions_bevacizumab)
 
 
 def print_answers(wiki_article_title, questions):
