@@ -25,6 +25,7 @@ Experiments inspired by [this tweet](https://twitter.com/jmcimula/status/1213623
 ### Results
 
 #### Poznan (text snippet vs. article)
+
                                                       | Snippet of text (5 paragraphs)                             | Full article from Wikipedia 
     --------------------------------------------------|------------------------------------------------------------|----------------------------------------------------
     Where is Poznań located in Poland?                | west-central Poland,                                       | west-central Poland,
@@ -66,3 +67,9 @@ It cannot handle _polar questions_ (yes-no), because the answers are always pass
 
 NOTE: Answers with merged words (`October 2012.Residents` or `side.Kinshasa`) suggest
       that better text pre-processing could improve the results even more.
+
+## Library `requests` and TLS proxy
+
+In case of error `SSLError`, you can specify a custom list of trusted CAs:
+
+    export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
