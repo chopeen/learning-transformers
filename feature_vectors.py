@@ -30,7 +30,7 @@ DOCS = {
 def main():
     nlp = pipeline('feature-extraction')
 
-    vectors = {
+    tensors = {
       k: nlp(v)
       for k, v in DOCS.items()
     }
@@ -39,14 +39,14 @@ def main():
 
     # losses = {
     #   f'{k1}_{k2}': cosine_loss(v1, v2)
-    #   for k1, v1 in vectors.items()
-    #   for k2, v2 in vectors.items()
+    #   for k1, v1 in tensors.items()
+    #   for k2, v2 in tensors.items()
     #   if k1 != k2
     # }
 
     shapes = {
       k: np.squeeze(v).shape
-      for k, v in vectors.items()
+      for k, v in tensors.items()
     }
 
     pprint(shapes)
