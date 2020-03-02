@@ -10,7 +10,7 @@ dependencies:
   - pip:
     - scikit-learn
     - tensorflow
-    - transformers
+    - transformers==2.5.1
     
     # Torch instead of TF
     # - torch
