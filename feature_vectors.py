@@ -45,7 +45,7 @@ def main():
     # }
 
     shapes = {
-      k: np.array(v).shape
+      k: np.squeeze(v).shape
       for k, v in vectors.items()
     }
 
@@ -55,10 +55,10 @@ def main():
 '''
 Why do the tensors have different shapes?
 
-{'CAT':  (1, 100, 768),
- 'DOG':  (1, 137, 768),
- 'SUN':  (1,  75, 768),
- 'TREE': (1, 116, 768)}
+{'CAT':  (100, 768),
+ 'DOG':  (137, 768),
+ 'SUN':  ( 75, 768),
+ 'TREE': (116, 768)}
 '''
 
 
