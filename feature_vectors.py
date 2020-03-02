@@ -55,10 +55,10 @@ def main():
 '''
 Why do the tensors have different shapes?
 
-{'CAT':  (100, 768),
- 'DOG':  (137, 768),
+{'CAT':  (106, 768),
+ 'DOG':  (141, 768),
  'SUN':  ( 75, 768),
- 'TREE': (116, 768)}
+ 'TREE': (124, 768)}
 '''
 
 
