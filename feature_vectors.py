@@ -35,24 +35,32 @@ def main():
       for k, v in DOCS.items()
     }
 
+    # FIXME: Does it make sense to slice the tensors in order to normalize them?
+    tensors_sliced = {
+      k: np.squeeze(v)[:75]
+      for k, v in tensors.items()
+    }
+
+    # Negative quantity between -1 and 0, where 0 indicates orthogonality and
+    # values closer to -1 indicate greater similarity
     cosine_loss = tf.keras.losses.CosineSimilarity(axis=1)
 
-    # losses = {
-    #   f'{k1}_{k2}': cosine_loss(v1, v2)
-    #   for k1, v1 in tensors.items()
-    #   for k2, v2 in tensors.items()
-    #   if k1 != k2
-    # }
+    losses = {
+      f'{k1}_{k2}': cosine_loss(v1, v2)
+      for k1, v1 in tensors_sliced.items()
+      for k2, v2 in tensors_sliced.items()
+      if k1 != k2
+    }
 
-    shapes = {
+    pprint(losses)
+
+
+'''
+   shapes = {
       k: np.squeeze(v).shape
       for k, v in tensors.items()
     }
 
-    pprint(shapes)
-
-
-'''
 Why do the tensors have different shapes?
 
 {'CAT':  (106, 768),
