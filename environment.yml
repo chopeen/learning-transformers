@@ -9,7 +9,7 @@ dependencies:
   - wikipedia
   - pip:
     - scikit-learn
-    - transformers[tf-cpu]
+    - transformers[torch]
     
     # Torch instead of TF
     # - torch
