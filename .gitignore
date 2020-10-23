@@ -128,8 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# PyCharm
+# IDE
 .idea/
+.vscode/settings.json
 
 # Local scripts
 use-chopeen-ssh-key.sh
