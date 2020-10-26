@@ -13,7 +13,7 @@ SENTENCES1 = [
 SENTENCES2 = [
     'The dog plays in the garden',
     'A woman watches TV',
-    'The new movie is so great that you cannot imagine it'
+    'The new movie is so great'
 ]
 
 
@@ -25,5 +25,9 @@ def main():
 
     cosine_scores = util.pytorch_cos_sim(embeddings1, embeddings2)
 
-    for s1, s2, cos in zip(SENTENCES1, SENTENCES2, cosine_scores):
-        print(f'{s1} \t\t {s2} \t\t Score: {cos:.4f}')
+    for i in range(len(SENTENCES1)):
+        print(f'{SENTENCES1[i]} \t {SENTENCES2[i]} \t Score: {cosine_scores[i][i]:.4f}')
+
+
+if __name__ == '__main__':
+    main()
