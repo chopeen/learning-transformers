@@ -3,14 +3,15 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.7.*
+  - python=3.8
   - pip
   - tabulate
   - wikipedia
   - pip:
     - scikit-learn
+    - sentence-transformers
     - tensorflow
-    - transformers==2.5.1
+    - transformers
     
     # Torch instead of TF
     # - torch
